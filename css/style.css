@@ -1,0 +1,59 @@
+header {
+    background: #000;
+    width: 100%;
+    height: 64px;
+}
+
+.nav-bar {
+    color: #fff;
+    height: 64px;
+    font-weight: 800;
+    font-family: ReithSans, Arial, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.nav-logo{
+    display: inline-flex;
+    align-items: center;
+    width: 112px;
+    height: 32px;
+    background: url(../icons/bbc-logo.svg);
+    margin-right: 20px;
+}
+.sign-in {
+    color: #fff;
+    
+    width: 176px;
+    padding: 4px;
+    border-right: 1px solid #333333;
+    height: 25px;
+}
+.sign-in:hover {
+    border-bottom: 2px solid blue;
+    transition: all .2s;
+}
+.sign-in a {
+    display: block;
+}
+.sign-person {
+    padding: 5px;
+}
+.nav-menu {
+    padding-left: 15px;
+}
+.menu-link {
+    padding: 10px 18px;
+}
+.nav-search {
+    width: 224px;
+    height: 40px;
+    background-color: #202224;
+}
+.nav-search-span {
+    padding-left: 10px;
+}
+.material-symbols-outlined {
+    position: relative;
+    font-size: 22px;
+    top: 10px;
+}
